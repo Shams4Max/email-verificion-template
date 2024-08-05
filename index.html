@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@200;300;400;500;700&family=Open+Sans:ital,wght@0,400;0,500;1,500;1,700&family=Raleway:wght@200;300;400;600;800&display=swap" rel="stylesheet">
+    <title>Tel Soft</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+
+
+        h1,h2,h3,h4,h5,h6,p,ul,a{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'Inter';
+        font-style: normal;
+        }   
+        
+
+
+        body {
+            width: 100%;
+            background-repeat: no-repeat;
+            background-color: #F3F5F8;
+
+        }
+
+        .mainContainer{
+            margin: auto;
+            width: 640px;
+            background-color: #fff;
+            flex-direction: column;
+        }
+
+        header {
+            width: 640px;
+            height: 50px;
+            background-color: #EE7445;
+            position: relative;
+        }
+
+        header .logo {
+            width: 232.333px;
+            height: 34px;
+            position: absolute;
+            left: 34px;
+            top: 8px;
+        }
+
+
+        .main {
+            padding: 35px;
+            width: 440px;
+            background-color: #fff;
+            position: relative;
+            
+        }
+
+
+        .main h3 {
+            margin: 16px 0px;
+            align-self: stretch;
+            font-size: 38px;
+            font-weight: 600;
+            line-height: 134%;
+            letter-spacing: -1.08px;
+            display: flex;
+            width: 440px;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+            
+        .main p{
+            width: 440px;
+            padding: 11px 0px;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 22.4px;
+            letter-spacing: -0.14px;
+            color: #676D7C;
+            align-items: flex-start;
+        }
+
+        .main a {
+            color: #3A75F5 !important;
+        }
+
+     
+        .main button {
+            display: flex;
+            height: 48px;
+            padding: 13px 20px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border-radius: 12px;
+            background: #EE7445;
+            border:none;
+            color: var(--Colors-C4, #FFF);
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 160%;
+            letter-spacing: -0.14px;
+        }
+
+        
+
+         .log_in, .call-center, .about{
+            margin: auto;
+            margin-bottom: 5px;
+            width: 572px;
+            padding: 24px;
+            flex-direction: column;
+            align-items: flex-start;
+            border-radius: 12px;
+            background-color: #F3F5F8;
+            
+        }
+
+        .about {
+            height: 191px !important;
+            margin-bottom: 30px;
+        }
+
+        .stroke {
+            border-top: 1px solid #B1B7C1;
+            padding: 10px;
+            width: 524px;
+            align-self: stretch;
+            stroke-width: 1px;
+            gap: 12px;
+        }
+
+        .log_in ul li{
+            width: 380px;
+            height: 23px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 82%;
+            color: #676D7C;
+            display: flex;
+            justify-content: space-between;
+
+        }
+        
+
+        .log_in ul li p{
+            width: 115px;
+            font-weight: 700;
+        }
+
+        .call-center ul, .about ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center
+        }
+        
+        .call-center ul li{
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 160%;
+            letter-spacing: -0.14px;
+            color: #676D7C;
+        }
+
+
+        .call-center button {
+            width: 169.333px;
+            height: 48px;
+            padding: 13px 16px;
+            align-items: center;
+            font-weight: 700;
+            border-radius: 12px;
+            border: 1px solid #E5EAEF;
+            background: #fff;
+        }
+
+
+        .about p{
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 160%;
+            text-align: center;
+        }
+
+        .about h1 {
+            font-family: Inter;
+            font-size: 33px;
+            font-weight: 600;
+            line-height: 134%;
+            align-self: stretch;
+            text-align: center;
+        }
+
+
+        .about ul li{
+            margin: 24px 3px; 
+            padding: 13px 16px;
+            text-align: center;
+            flex: 1 0 0;
+            border-radius: 12px;
+            border: 1px solid #E5EAEF;
+            background: #fff;
+            color: #1A1D1F;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: -0.14px;
+
+        }
+        footer {
+            padding: 34px;
+            width: 640px;
+            background-color: #F3F5F8;
+            gap: 24px;
+        }
+
+
+        footer p, h3{
+            margin: auto;
+            width: 578px;
+            height: 38px;
+            text-align: center;
+            align-self: stretch;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 160%;
+            color: #676D7C;
+           
+        }
+
+
+        footer h3 {
+            font-size: 14px !important;
+            width: 340px;
+        }
+
+        .footerIcons{
+            padding: 24px;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            align-self: stretch;
+            gap: 24px;
+        }
+
+
+
+    </style>
+    
+
+
+
+
+
+</head>
+<body>
+
+   <section class="mainContainer">
+    <header>
+        <div class="container">
+              <div class="logo">
+                  <img src="./images/Logo.png" alt="">
+              </div>
+              </div>
+      </div>  
+      </header>
+      <section class="main">  
+          <div class="container">
+              <h3>Почти готово!</h3>
+              <p>Для завершения регистрации в панели <span><a href="">utc.cloud.uz</a></span> подтвердите адрес электронной почты.</p>
+              <button>Подтвердить почту</button>
+          </div> 
+      </section>
+      
+      <section class="log_in">
+          <div class="container">
+              <ul>
+                  <li><p>Логин:</p>
+                  <p><a href="">kovalyovdmitriy.dk@gmail.com</a></p></li> 
+                  <div class="stroke"></div>
+                  <li><p>Пароль:</p>
+                  <p><a href="">Eweth436opus0</a></p></li> 
+                </ul>
+        </div>
+      </section>
+      <section class="call-center">
+        <div class="container">
+            <ul>
+                <li>Если у вас возникли трудности</li>
+                <button>Служба поддержки</button>
+            </ul>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container">
+            <p>С уважением,</p>
+            <h1>Команда UTCcloud</h1>
+            <ul>
+                <li><a href="">998 91 166 06 80</a></li>
+                <li><a href="">support@UTCcloud.ru</a></li>
+                <li><a href="">UTCcloud.uz</a></li>
+            </ul>
+        </div>
+      </section>
+    
+    <footer>
+        <p>Вы получили это письмо, потому что подписаны на рассылку уведомлений аккаунта 56826446 в UTC cloud.</p>
+        
+        <ul class="footerIcons">
+            <a href=><img src="./images/Social icon face.png" alt=""></a>
+            <a href=""><img src="./images/Social icon tel.png" alt=""></a>
+            <a href=""><img src="./images/Social icon you.png" alt=""></a>
+            <a href=""><img src="./images/odnoklassniki-logo-svgrepo-com (1) 1.png" alt=""></a>
+            <a href=""><img src="./images/vk.png" alt=""></a>
+            <a href=""><img src="./images/Social icon insta.png" alt=""></a>
+            <a href=""><img src="./images/Social icon twi.png" alt=""></a>
+        </ul>
+        
+        <h3>Лицензия на телематические услуги № 176267 © Selectel, 2008-2024</h3>
+   
+    </footer>
+</section>
+</body>
+</html>
